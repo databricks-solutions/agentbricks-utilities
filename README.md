@@ -1,9 +1,10 @@
 # AgentBricks Utilities
 
-```
-Includes utilities and plugins extending AgentBricks to improve gaps in the product, specifically focusing on product-market fit, filling perceived gaps as perceived by customers or the field, or Generally the goal of this repo is not example implementations, though functioning streaming or incremental code would absolutely be included since that is more of a product-market fit issue. As features get rolled into the product and each utility becomes less useful we’ll archive them.
-```
+Includes utilities and plugins extending AgentBricks and related features such as Databricks AI functions.
 
+The goal of utilties in this repo is to improve gaps in the product, specifically focusing on product-market fit, filling perceived gaps as perceived by customers or the field, or addressing challenges that customers face during POCs or other engagements.
+
+The primary goal of this repo is not example implementations, though sometimes examples that direct customers more strongly toward approaches that integrate better with customer deployments such as functioning streaming or incremental code would absolutely be included since that is more of a product-market fit issue. As features get rolled into the product and each utility becomes less useful we’ll remove features and/or archive the repository.
 ## 
 
 ## Installation
