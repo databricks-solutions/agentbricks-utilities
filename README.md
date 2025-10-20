@@ -1,19 +1,14 @@
-# REPO NAME 
+# AgentBricks Utilities
 
 ```
-Placeholder
-
-Fill here a description at a functional level - what is this content doing
+Includes utilities and plugins extending AgentBricks to improve gaps in the product, specifically focusing on product-market fit, filling perceived gaps as perceived by customers or the field, or Generally the goal of this repo is not example implementations, though functioning streaming or incremental code would absolutely be included since that is more of a product-market fit issue. As features get rolled into the product and each utility becomes less useful we’ll archive them.
 ```
 
-## Video Overview
-
-Include a GIF overview of what your project does. Use a service like Quicktime, Zoom or Loom to create the video, then convert to a GIF.
-
+## 
 
 ## Installation
 
-Include details on how to use and install this content. 
+Generally the utilities here can be copy-pasted from a notebook or the repo simply cloned for their use. If a project requires a DAB deploy or other implementation it will say so in the project-specific readme.
 
 ## How to get help
 
@@ -26,3 +21,4 @@ Databricks support doesn't cover this content. For questions or bugs, please ope
 
 | library                                | description             | license    | source                                              |
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
+| pypdf==6.0.0 | Opens and processes PDFs | BSD-3 Clause | https://pypi.org/project/pypdf/ |
