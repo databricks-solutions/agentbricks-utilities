@@ -11,6 +11,10 @@ The primary goal of this repo is not example implementations, though sometimes e
 
 Generally the utilities here can be copy-pasted from a notebook or the repo simply cloned for their use. If a project requires a DAB deploy or other implementation it will say so in the project-specific readme.
 
+## Utilities
+
+1. PDF Profiler - do you have super long PDFs that you don't actually need to parse the information from? Only need the first 10 pages? This is for you! Likely this will be added to ai_parse_document() directly eventually, but it's not there yet. This can save huge amounts of time and reduce cost for your PDF processing and ingestion.
+
 ## How to get help
 
 Databricks support doesn't cover this content. For questions or bugs, please open a GitHub issue and the team will help on a best effort basis.
