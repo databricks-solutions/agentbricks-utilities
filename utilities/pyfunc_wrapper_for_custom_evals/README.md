@@ -1,7 +1,7 @@
 
 ## Wrap an `[KIE]agent` in a Custom Pyfunc + Explore Custom Evals
 
-[### nb_name] reference example notebook that wraps a [KIE Agent](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/key-info-extraction) (`beta`) endpoint as a [MLflow Custom Pyfunc](https://mlflow.org/blog/custom-pyfunc) which allows for e.g. downstream [MLflow Genai Scorer/Judge evaluations](https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/predefined-judge-scorers) where needed. This approach technically applies also other '`Agents`' (not specific to Agent Bricks).
+**`mlflow_pyfunc_wrapped_kieAgent`** is a reference example notebook that wraps a [KIE Agent](https://docs.databricks.com/aws/en/generative-ai/agent-bricks/key-info-extraction) (`beta`) endpoint as a [MLflow Custom Pyfunc](https://mlflow.org/blog/custom-pyfunc) which allows for e.g. downstream [MLflow Genai Scorer/Judge evaluations](https://docs.databricks.com/aws/en/mlflow3/genai/eval-monitor/predefined-judge-scorers) where needed. This approach technically applies also other '`Agents`' (not specific to Agent Bricks).
 
 **Requirements:**
 
