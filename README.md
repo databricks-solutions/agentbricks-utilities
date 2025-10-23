@@ -14,6 +14,7 @@ Generally the utilities here can be copy-pasted from a notebook or the repo simp
 ## Utilities
 
 1. PDF Profiler - do you have super long PDFs that you don't actually need to parse the information from? Only need the first 10 pages? This is for you! Likely this will be added to ai_parse_document() directly eventually, but it's not there yet. This can save huge amounts of time and reduce cost for your PDF processing and ingestion.
+2. Do you need custom evaluation metrics — such as external LLMs, proprietary calculations, or in-house evaluation methods to assess the Agent Bricks Information Extraction Agent and more, beyond the default LLM-as-a-judge options provided by Databricks? A reference notebook is provided here.
 
 ## How to get help
 
@@ -27,6 +28,6 @@ Databricks support doesn't cover this content. For questions or bugs, please ope
 | library                                | description             | license    | source                                              |
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
 | pypdf==6.0.0 | Opens and processes PDFs | BSD-3 Clause | https://pypi.org/project/pypdf/ |
-| mlflow	3.1.4	| Apache 2.0 | MLflow License |
-| databricks-agents	1.2.0	| Apache 2.0 | databricks-agents License |
-| cloudpickle	>=3.1.1	| BSD 3-Clause	| cloudpickle License |
+| mlflow	3.1.4	| MLflow  | Apache 2.0 | 
+| databricks-agents	1.2.0	| databricks-agents | Apache 2.0 | 
+| cloudpickle	>=3.1.1	| cloudpickle License | BSD 3-Clause	| 
