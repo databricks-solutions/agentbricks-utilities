@@ -28,6 +28,6 @@ Databricks support doesn't cover this content. For questions or bugs, please ope
 | library                                | description             | license    | source                                              |
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
 | pypdf==6.0.0 | Opens and processes PDFs | BSD-3 Clause | https://pypi.org/project/pypdf/ |
-| mlflow	3.1.4	| Apache 2.0 | MLflow License |
-| databricks-agents	1.2.0	| Apache 2.0 | databricks-agents License |
-| cloudpickle	>=3.1.1	| BSD 3-Clause	| cloudpickle License |
+| mlflow	3.1.4	| MLflow  | Apache 2.0 | 
+| databricks-agents	1.2.0	| databricks-agents | Apache 2.0 | 
+| cloudpickle	>=3.1.1	| cloudpickle License | BSD 3-Clause	| 
