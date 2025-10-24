@@ -1,0 +1,6 @@
+# Global owner for everything
+*    @eliswanson-db @hengrumay @bali0019
+
+# Owner for everything in a directory
+/utilities/profile_and_trim_pdfs @eliswanson-db
+/utilities/pyfunc_wrapper_for_custom_evals @hengrumay
