@@ -290,6 +290,7 @@ def read_bronze_pdf_stream(source_path: str) -> DataFrame:
     return (spark.readStream
          .format("cloudFiles")
          .option("cloudFiles.format", "binaryFile")
+         .option("pathGlobFilter", "*.pdf")
          .load(source_path)
          .select("modificationTime", "path", "length")
          )
