@@ -15,7 +15,7 @@
 
 - **IMPORTANT**: An `KIE` agent endpoint url -- one that is created via [AgentBricks](https://www.databricks.com/product/artificial-intelligence/agent-bricks) e.g. "`https://{databricks_workspace_url}/serving-endpoints/{kie}-########-endpoint/invocations`"
 
-- **NOTE**: A sample of de-identified data on device related repair and maintenance workorders for illustration is used in this notebook. The `KIE` Agent you developed will have a different response output -- use the notebook as a reference for your use case
+- **NOTE**: A sample of de-identified data on device related repair and maintenance workorders for illustration is used in this notebook. The `KIE` Agent you developed will have a different response output with actual input data -- use the example notebook as a reference for your use case and use your own sample data where possible. 
 
 <br>
 
