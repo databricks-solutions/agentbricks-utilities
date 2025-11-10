@@ -4,3 +4,4 @@
 # Owner for everything in a directory
 /utilities/profile_and_trim_pdfs @eliswanson-db
 /utilities/pyfunc_wrapper_for_custom_evals @hengrumay
+/utilities/ai_parse_document_pipeline @bali0019 @eliswanson-db

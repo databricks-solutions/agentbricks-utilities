@@ -13,8 +13,13 @@ Generally the utilities here can be copy-pasted from a notebook or the repo simp
 
 ## Utilities
 
-1. PDF Profiler - do you have super long PDFs that you don't actually need to parse the information from? Only need the first 10 pages? This is for you! Likely this will be added to ai_parse_document() directly eventually, but it's not there yet. This can save huge amounts of time and reduce cost for your PDF processing and ingestion.
-2. Do you need custom evaluation metrics — such as external LLMs, proprietary calculations, or in-house evaluation methods to assess the Agent Bricks Information Extraction Agent and more, beyond the default LLM-as-a-judge options provided by Databricks? A reference notebook is provided here.
+1. **PDF Profiler** - Profile and trim large PDFs to reduce processing costs. If you only need the first N pages of multi-page PDFs, this streaming-based tool extracts metadata and trims PDFs at scale before processing with `ai_parse_document()`.
+
+2. **PDF Splitter** - Split large PDFs into smaller chunks. For example, split a 6000-page PDF into six 1000-page files, with page ranges in the filenames. Uses structured streaming for scalable processing.
+
+3. **AI Parse Document Pipeline** - End-to-end document processing pipeline using `ai_parse_document()` and `ai_query()`. Incrementally parses PDFs and images, then extracts structured data with streaming for production-ready document ingestion.
+
+4. **Custom Evaluation Metrics** - Reference notebooks for custom evaluation metrics using external LLMs, proprietary calculations, or in-house methods to assess Agent Bricks Information Extraction Agent beyond default LLM-as-a-judge options.
 
 ## How to get help
 
